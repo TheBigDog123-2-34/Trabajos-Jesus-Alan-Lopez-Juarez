@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Animales</title>
+</head>
+
+<body>
+  <center>
+    <button onclick="BIRD()">BIRD</button>
+    <button onclick="DONKEY()">DONKEY</button>
+    <button onclick="CAT()">CAT</button>
+    <button onclick="DOG()">DOG</button>
+    <button onclick="HORSE()">HORSE</button>
+  </center>
+
+  <center>
+    <h1 id="demo1"></h1>
+    <img id="demo2" widht="650" height="338">
+  </center>
+
+
+
+
+
+  <script>
+    function BIRD() {
+      document.getElementById("demo1").innerHTML = "BIRD";
+      document.getElementById("demo2").src = "BIRD.jpg";
+    }
+    function DONKEY() {
+
+      document.getElementById("demo1").innerHTML = "DONKEY";
+      document.getElementById("demo2").src = "DONKEY.jpg";
+    }
+    function CAT() {
+      document.getElementById("demo1").innerHTML = "CAT";
+      document.getElementById("demo2").src = "CAT.jpg";
+    }
+    function DOG() {
+      document.getElementById("demo1").innerHTML = "DOG";
+      document.getElementById("demo2").src = "DOG.jpg";
+    }
+    function HORSE() {
+      document.getElementById("demo1").innerHTML = "HORSE";
+      document.getElementById("demo2").src = "HORSE.jpg";
+    }
+  </script>
+
+
+</body>
+
+</html>

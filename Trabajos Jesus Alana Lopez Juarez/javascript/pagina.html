@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Las drogas</title>
+</head>
+<body>
+ <center>  
+<h1>Las drogas</h1>
+<img  src="DROGO.jpg">
+<button onclick="Cuales()">1.¿Cuales son?</button>
+<button onclick="Como()">2.¿Como actuan?</button>
+<button onclick="Buscar()">3.Buscar ayuda</button>
+</center> 
+
+<center>
+<h1 id = "demo1"></h1>
+ <p  id = "demo2"></p>
+<img id="demo3" widht="650" height="338">
+</center> 
+
+
+
+
+
+
+
+
+
+
+<script>
+    function Cuales() {
+      document.getElementById("demo1").innerHTML = "Cuales";
+      document.getElementById("demo2").innerHTML = "Marihuana es la droga ilegal de mayor consumo que se produce a partir de los capullos en flor y las hojas secas de la planta cannabis. Su color varía de entre verde marrón y café verdoso y su forma es de hierba seca. Una forma más fuerte de Marihuana es el Hachís que luce como unas bolitas o tortitas marrones o negras. A menudo se dice que la marihuana es la droga que sirve de puerta de entrada a otras drogas porque su consumo frecuente a menudo lleva a consumir drogas más fuertes.  Nombres Comunes: Marihuana, Mota, hierba, pot, porro, joint. Consumo: La marihuana suele fumarse en un cigarrillo (también llamado porro), puro, pipa o pipa de agua. Algunas personas la mezclan con la comida o la preparan como si fuera té. Efectos y Riesgos: La marihuana puede afectar el estado de ánimo y la coordinación. Los que la consumen pueden experimentar cambios de humor que oscilan entre estar muy excitado o feliz a estar adormilado o deprimido. Eleva la frecuencia cardiaca y la presión arterial. A algunas personas se les enrojecen los ojos o tienen mucho sueño o tienen mucha hambre. La marihuana tiene un efecto tan fuerte en tus pulmones como los cigarrillos: los fumadores habituales tienen tos, respiración sibilante y resfriados frecuentes. Adicción: Los jóvenes que consumen marihuana se pueden volver psicológicamente dependientes de ella para sentirse bien, enfrentarse a la vida o al estrés. Además, su cuerpo puede exigirles cada vez más marihuana para lograr el mismo tipo de experiencia estimulante que tuvieron al principio."
+      document.getElementById("demo3").src = "CUALES SON.jpg";
+    }
+    function Como() {
+    
+      document.getElementById("demo1").innerHTML = "Como";
+      document.getElementById("demo2").innerHTML = "Las drogas son sustancias químicas que modifican el funcionamiento de nuestro cuerpo. Algunas son medicamentos que ayudan a la gente cuando los médicos se los recetan. Pero muchas de ellas carecen de utilidad médica.  Las drogas son sustancias químicas que modifican el funcionamiento de nuestro cuerpo. Algunas son medicamentos que ayudan a la gente cuando los médicos se los recetan. Pero muchas de ellas carecen de utilidad médica. Cuando se toman (generalmente tragándolas, inhalándolas o inyectándoselas), las drogas encuentran la forma de llegar al torrente sanguíneo. Desde allí, llegan al cerebro y a otras partes del cuerpo. En el cerebro, las drogas pueden intensificar o bien adormecer los sentidos, modificar el nivel de alerta de la persona y, a veces, reducir el dolor físico. Por la forma en que las drogas actúan en el cerebro, repercuten negativamente en la capacidad de tomar decisiones acertadas y de hacer elecciones saludables. Hasta beber alcohol hace que la gente se implique en situaciones peligrosas, como conducir bajo sus efectos o mantener relaciones sexuales sin protección. Aunque las drogas pueden hacerte sentir bien al principio, te pueden provocar daños importantes en el cuerpo y en el cerebro. Beber alcohol, fumar o mascar tabaco, consumir drogas ilegales y hasta esnifar pegamento son actividades que dañan el cuerpo humano.";
+      document.getElementById("demo3").src = "ACTUAN.jpg";
+    }
+    function Buscar() {
+      document.getElementById("demo1").innerHTML ="Buscar";
+      document.getElementById("demo2").innerHTML = "Si crees que tú, o un amigo tuyo, pueden ser adictos a las drogas, habla con uno de tus padres, tu médico, tu orientador escolar o el personal de la enfermería de tu centro de estudios. Ellos te pueden ayudar a recibir la ayuda que necesitas. Si crees que tú, o un amigo tuyo, pueden ser adictos a las drogas, habla con uno de tus padres, tu médico, tu orientador escolar o el personal de la enfermería de tu centro de estudios. Ellos te pueden ayudar a recibir la ayuda que necesitas. Existen varios tipos de tratamiento para superar una adicción a las drogas. Los dos tipos principales son el tratamiento conductual (ayudar a la persona a modificar su conducta) y el tratamiento farmacológico (tratar a la persona con medicamentos). Los expertos en el tratamiento de la adicción a las drogas enseñan a la gente a vivir sin drogas: cómo afrontar sus ansias de consumo, cómo evitar situaciones que favorecen el consumo y cómo prevenir y manejar las recaídas. Puede ser difícil superar una adicción a las drogas sin tratamiento ni ayuda profesional. Lleva su tiempo y no es algo que se puedas hacer solo: todo el mundo necesita ayuda y apoyo. Los expertos que ayudan a personas con adicciones están formados para ofrecer ayuda, no para juzgar a sus pacientes. Para encontrar un centro de tratamiento para las adicciones a las drogas en tu zona, busca en Internet, en el localizador de tratamientos de la SAMHSA (Administración de Salud Mental y Abuso de Sustancias) de EE. UU., o pide ayuda a tu médico o a tu terapeuta.";
+      document.getElementById("demo3").src = "BUSCAR AYUDA.jpg";
+    }
+    </script>
+
+
+</body>
+</html>
